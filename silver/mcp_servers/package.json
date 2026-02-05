@@ -1,0 +1,25 @@
+{
+  "name": "ai-employee-silver-mcp-servers",
+  "version": "1.0.0",
+  "description": "MCP servers for the Silver tier of the Personal AI Employee project",
+  "main": "index.js",
+  "scripts": {
+    "email-mcp": "node ./email-mcp/index.js",
+    "browser-mcp": "node ./browser-mcp/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
+    "playwright": "^1.39.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "mcp",
+    "claude-code",
+    "ai-employee",
+    "automation",
+    "silver-tier"
+  ],
+  "author": "AI Employee Project",
+  "license": "MIT"
+}

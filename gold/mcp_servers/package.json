@@ -1,0 +1,30 @@
+{
+  "name": "ai-employee-gold-mcp-servers",
+  "version": "1.0.0",
+  "description": "MCP servers for the Gold tier of the Personal AI Employee project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "email-mcp": "node ./email-mcp/index.js",
+    "browser-mcp": "node ./browser-mcp/index.js",
+    "social-media-mcp": "node ./social-media-mcp/index.js",
+    "odoo-mcp": "node ./odoo-mcp/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
+    "playwright": "^1.39.0",
+    "axios": "^1.6.0",
+    "twitter-api-v2": "^1.12.3",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "mcp",
+    "claude-code",
+    "ai-employee",
+    "automation",
+    "gold-tier"
+  ],
+  "author": "AI Employee Project",
+  "license": "MIT"
+}

@@ -1,0 +1,8 @@
+# Requirements for Personal AI Employee
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+playwright
+watchdog
+psutil
